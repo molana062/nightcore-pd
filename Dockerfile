@@ -2,7 +2,7 @@
 FROM biansepang/weebproject:groovy
 
 # Clone repo and prepare working directory
-RUN git clone -b master https://github.com/IrhamFadzillah/NightCore /home/NightCore/
+RUN git clone -b master https://github.com/molana062/NightCore /home/NightCore/
 RUN mkdir /home/NightCore/bin/
 WORKDIR /home/NightCore/
 
