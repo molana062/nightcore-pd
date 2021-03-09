@@ -75,12 +75,12 @@ async def mention_afk(mention):
         if mention.sender_id not in USERS or chat_title not in USERS:
             if AFKREASON:
                 await mention.reply(
-                    f"**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                    f"**Molana off.** (Since: {afk_str})"
                     f"\nReason: `{AFKREASON}`."
                 )
             else:
                 await mention.reply(
-                    f"**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                    f"**Molana off.** (Since: {afk_str})"
                     "\n**Sabar ajg nanti aja.**"
                 )
             if mention.sender_id is not None:
@@ -91,12 +91,12 @@ async def mention_afk(mention):
             if USERS[mention.sender_id] % randint(2, 4) == 0:
                 if AFKREASON:
                     await mention.reply(
-                        f"**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                        f"**Molana off.** (Since: {afk_str})"
                         f"\nReason: `{AFKREASON}`."
                     )
                 else:
                     await mention.reply(
-                        f"**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                        f"**Molana off.** (Since: {afk_str})"
                         "\n** Sabar ajg nanti aja.**"
                     )
             if mention.sender_id is not None:
@@ -162,12 +162,12 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(
-                        f"**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                        f"**Molana off.** (Since: {afk_str})"
                         f"\nReason: `{AFKREASON}`."
                     )
                 else:
                     await sender.reply(
-                        f"**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                        f"**Molana off.** (Since: {afk_str})"
                         "\n**Sabar ajg nanti aja.**"
                     )
                 USERS.update({sender.sender_id: 1})
@@ -176,12 +176,12 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            "**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                            "**Molana off.** (Since: {afk_str})"
                             f"\nReason: `{AFKREASON}`."
                         )
                     else:
                         await sender.reply(
-                            "**Gua Afk Dulu Bentaran.** (Since: {afk_str})"
+                            "**Molana off.** (Since: {afk_str})"
                             "\n**Sabar ajg nanti aja.**"
                         )
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
