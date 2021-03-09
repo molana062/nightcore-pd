@@ -71,7 +71,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[NightCore's README.md file](https://github.com/IrhamFadzillah/NightCore/blob/master/README.md)"
+        "\n[13Slave's README.md file](https://github.com/molana062/NightCore/blob/master/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-Google-Drive-04-03)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -99,7 +99,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "My Repo: [NightCore](https://github.com/IrhamFadzillah/NightCore)\nOwner: [Irham](https://t.me/StayWithMe69)\nSupport: [Group](https://t.me/NightCoreUserbot)"
+        "My Repo: [13Slave](https://github.com/molana062/NightCore)\nOwner: [Molana](https://t.me/Betterthaanhecan)\nSupport: [Channel](https://t.me/ruangpublikk)"
     )
 
 
