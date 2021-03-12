@@ -172,7 +172,7 @@ async def amireallyalive(alive):
         
         f"⫸ REPO             : [13Slave](https://github.com/molana062/NightCore)"
         f"⫸ OWNER            : [Molana](https://t.me/betterthaanhecan)"
-        f"⫸ BASE             : [NightCore](https://github.com/IrhamFadzillah/NightCore)
+        f"⫸ BASE             : [NightCore](https://github.com/IrhamFadzillah/NightCore)"
         "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
     )
     if ALIVE_LOGO:
