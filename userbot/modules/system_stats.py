@@ -170,9 +170,9 @@ async def amireallyalive(alive):
         f"⚜ ꓄ꍟ꒒ꍟ꓄ꃅꂦꈤ ㅤㅤㅤㅤㅤㅤ: {version.__version__}\n"
         
         
-        f"⚜ ꋪꍟᖘꂦ             : [13Slave](https://github.com/molana062/NightCore)" \n
-        f"⚜ ꂦꅏꈤꍟꋪ            : [Molana](https://t.me/betterthaanhecan)" \n
-        f"⚜ ꌃꍏꌗꍟ             : [NightCore](https://github.com/IrhamFadzillah/NightCore)" \n
+        f"⚜ ꋪꍟᖘꂦ             : [13Slave](https://github.com/molana062/NightCore)\n"
+        f"⚜ ꂦꅏꈤꍟꋪ            : [Molana](https://t.me/betterthaanhecan)\n"
+        f"⚜ ꌃꍏꌗꍟ             : [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
         "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
     )
     if ALIVE_LOGO:
