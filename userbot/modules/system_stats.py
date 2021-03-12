@@ -165,14 +165,14 @@ async def amireallyalive(alive):
     output = (
         f"`13Slave` Running On👑 `{repo.active_branch.name}`\n"
         "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
-        f"⚜ ꌗꃅꍏꀸꂦꅏ ㅤㅤㅤㅤㅤㅤ : {DEFAULTUSER}\n"
-        f"⚜ ᖘꌩ꓄ꃅꂦꈤ ㅤㅤㅤㅤㅤㅤㅤ: {python_version()}\n"
-        f"⚜ ꓄ꍟ꒒ꍟ꓄ꃅꂦꈤ ㅤㅤㅤㅤㅤㅤ: {version.__version__}\n"
+        f"⚜ sʜᴀᴅᴏᴡㅤㅤㅤㅤㅤ≒ {DEFAULTUSER}\n"
+        f"⚜ ᴘʏᴛʜᴏɴㅤㅤㅤㅤㅤ ≒ {python_version()}\n"
+        f"⚜ ᴛᴇʟᴇᴛʜᴏɴㅤㅤㅤㅤㅤ≒ {version.__version__}\n"
         
         
-        f"⚜ ꋪꍟᖘꂦ             : [13Slave](https://github.com/molana062/NightCore)\n"
-        f"⚜ ꂦꅏꈤꍟꋪ            : [Molana](https://t.me/betterthaanhecan)\n"
-        f"⚜ ꌃꍏꌗꍟ             : [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
+        f"⚜ ʀᴇᴘᴏㅤㅤㅤㅤㅤ   ≒ [13Slave](https://github.com/molana062/NightCore)\n"
+        f"⚜ ᴏᴡɴᴇʀㅤㅤㅤㅤㅤ ≒ [Molana](https://t.me/betterthaanhecan)\n"
+        f"⚜ ʙᴀsᴇ ㅤㅤㅤㅤㅤ≒ [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
         "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
     )
     if ALIVE_LOGO:
