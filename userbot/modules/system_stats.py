@@ -164,12 +164,16 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"`13Slave` Melayani Molana `{repo.active_branch.name}`\n"
-        "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
-        f"⚜ User             : {DEFAULTUSER}\n\n"
+        "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
+        f"⚜ Master           : {DEFAULTUSER}\n\n"
         f"⚜ Python           : {python_version()}\n\n"
-        f"⚜ Telethon version : {version.__version__}\n\n"
+        f"⚜ Telethon         : {version.__version__}\n\n"
         f"⚜ Bot Uptime       : {uptime}\n"
-        "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
+        
+        f"⫸ REPO             : [13Slave](https://github.com/molana062/NightCore)"
+        f"⫸ OWNER            : [Molana](https://t.me/betterthaanhecan)"
+        f"⫸ BASE             : [NightCore](https://github.com/IrhamFadzillah/NightCore)
+        "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
     )
     if ALIVE_LOGO:
         try:
