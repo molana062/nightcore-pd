@@ -163,17 +163,17 @@ async def amireallyalive(alive):
     uptime = await get_readable_time((time.time() - StartTime))
     logo = ALIVE_LOGO
     output = (
-        f"`13Slave` Melayani Molana `{repo.active_branch.name}`\n"
-        "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
-        f"⚜ Master           : {DEFAULTUSER}\n\n"
-        f"⚜ Python           : {python_version()}\n\n"
-        f"⚜ Telethon         : {version.__version__}\n\n"
-        f"⚜ Bot Uptime       : {uptime}\n"
+        f"`13Slave` Running On👑 `{repo.active_branch.name}`\n"
+        "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
+        f"⚜ ꌗꃅꍏꀸꂦꅏ ㅤㅤㅤㅤㅤㅤ : {DEFAULTUSER}\n"
+        f"⚜ ᖘꌩ꓄ꃅꂦꈤ ㅤㅤㅤㅤㅤㅤㅤ: {python_version()}\n"
+        f"⚜ ꓄ꍟ꒒ꍟ꓄ꃅꂦꈤ ㅤㅤㅤㅤㅤㅤ: {version.__version__}\n"
         
-        f"⫸ REPO             : [13Slave](https://github.com/molana062/NightCore)"
-        f"⫸ OWNER            : [Molana](https://t.me/betterthaanhecan)"
-        f"⫸ BASE             : [NightCore](https://github.com/IrhamFadzillah/NightCore)"
-        "`°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`\n"
+        
+        f"⚜ ꋪꍟᖘꂦ             : [13Slave](https://github.com/molana062/NightCore)" \n
+        f"⚜ ꂦꅏꈤꍟꋪ            : [Molana](https://t.me/betterthaanhecan)" \n
+        f"⚜ ꌃꍏꌗꍟ             : [NightCore](https://github.com/IrhamFadzillah/NightCore)" \n
+        "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
     )
     if ALIVE_LOGO:
         try:
