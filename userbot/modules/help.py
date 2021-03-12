@@ -19,18 +19,18 @@ async def help(event):
         if args in CMD_HELP:
             msg = await event.edit(str(CMD_HELP[args]))
         else:
-            msg = await event.edit("Please specify a valid module name.")
+            msg = await event.edit("Daftar nya ada dibawah.")
     else:
-        head = "Please specify which module do you want help for !!"
+        head = "Daftar nya ada dibawah. !!"
         head2 = f"Loaded Modules : {len(CMD_HELP)}"
-        head3 = "Usage: `.help` `<module name>`"
-        head4 = "List for all available command below: "
+        head3 = "Pakai ini: `.help` `<module name>`"
+        head4 = "List Fungsi Buat Gabut: "
         string = ""
-        sep1 = "`••••••••••••••••••••••••••••••••••••••••••••••`"
-        sep2 = "`=========================================`"
+        sep1 = "`¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤`"
+        sep2 = "`¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤`"
         for i in sorted(CMD_HELP):
             string += "`" + str(i)
-            string += "`  •  "
+            string += "`  ⚠  "
         await event.edit(
             f"{head}\
               \n{head2}\
