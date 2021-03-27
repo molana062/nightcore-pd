@@ -9,7 +9,7 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=flat-square" /></a>
 </p>
 
-![logo](https://telegra.ph/file/7c29c42084e4bca205bc8.jpg)
+![logo](https://telegra.ph/file/7462d797bcc01b9c3e578.jpg)
 
 ```
 #include <std/disclaimer.h>
@@ -33,7 +33,7 @@ based on [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
  
  ## Host
 Click this button below to Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/IrhamFadzillah/NightCore/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/molana062/NightCore/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
 
 ## Credits
 * [Adek Maulana](https://github.com/adekmaulana) - ProjectBish
