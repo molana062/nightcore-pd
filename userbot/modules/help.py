@@ -30,7 +30,7 @@ async def help(event):
         sep2 = "`¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤`"
         for i in sorted(CMD_HELP):
             string += "`" + str(i)
-            string += "`  ⚠  "
+            string += "`  🀄  "
         await event.edit(
             f"{head}\
               \n{head2}\
