@@ -19,9 +19,9 @@ async def help(event):
         if args in CMD_HELP:
             msg = await event.edit(str(CMD_HELP[args]))
         else:
-            msg = await event.edit("Daftar nya ada dibawah.")
+            msg = await event.edit("Liat aja sendiri anjg.")
     else:
-        head = "Daftar nya ada dibawah. !!"
+        head = "Liat aja sendiri anjg. !!"
         head2 = f"Loaded Modules : {len(CMD_HELP)}"
         head3 = "Pakai ini: `.help` `<module name>`"
         head4 = "List Fungsi Buat Gabut: "
