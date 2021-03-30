@@ -207,9 +207,9 @@ async def set_afk(afk_e):
     afk_start = start1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit("**Bye anak anak ajg!**" f"\nReason: `{string}`")
+        await afk_e.edit("**Off dulu lagi pada kaya anjing semua!**" f"\nReason: `{string}`")
     else:
-        await afk_e.edit("**Bye anak anak ajg!**")
+        await afk_e.edit("**Off dulu lagi pada kaya anjing semua!**")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nGua Afk Dulu Mang!")
     ISAFK = True
