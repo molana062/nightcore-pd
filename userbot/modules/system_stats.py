@@ -164,16 +164,16 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"`13Slave` Running On👑 `{repo.active_branch.name}`\n"
-        "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
-        f"⚜ sʜᴀᴅᴏᴡㅤㅤㅤㅤㅤ≒ {DEFAULTUSER}\n"
-        f"⚜ ᴘʏᴛʜᴏɴㅤㅤㅤㅤㅤ ≒ {python_version()}\n"
-        f"⚜ ᴛᴇʟᴇᴛʜᴏɴㅤㅤㅤㅤㅤ≒ {version.__version__}\n"
+        "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
+        f"⚜ sʜᴀᴅᴏᴡ      ≒ {DEFAULTUSER}\n"
+        f"⚜ ᴘʏᴛʜᴏɴ      ≒ {python_version()}\n"
+        f"⚜ ᴛᴇʟᴇᴛʜᴏɴ    ≒ {version.__version__}\n"
         
         
-        f"⚜ ʀᴇᴘᴏㅤㅤㅤㅤㅤ   ≒ [13Slave](https://github.com/molana062/NightCore)\n"
-        f"⚜ ᴏᴡɴᴇʀㅤㅤㅤㅤㅤ ≒ [Molana](https://t.me/betterthaanhecan)\n"
-        f"⚜ ʙᴀsᴇ ㅤㅤㅤㅤㅤ≒ [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
-        "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
+        f"⚜ ʀᴇᴘᴏ        ≒ [13Slave](https://github.com/molana062/NightCore)\n"
+        f"⚜ ᴏᴡɴᴇʀ       ≒ [Molana](https://t.me/betterthaanhecan)\n"
+        f"⚜ ʙᴀsᴇ        ≒ [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
+        "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
     )
     if ALIVE_LOGO:
         try:
