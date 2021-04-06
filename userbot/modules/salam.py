@@ -17,7 +17,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^.p(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("Aالسلام عليكم ورحمة الله وبركاته")
+    await typew.edit("السلام عليكم ورحمة الله وبركاته")
 
 
 @register(outgoing=True, pattern="^.L(?: |$)(.*)")
