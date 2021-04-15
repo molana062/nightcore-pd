@@ -10,8 +10,11 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.types import DocumentAttributeAudio
+from userbot.events import register
+from userbot import bot, CMD_HELP
 from youtube_dl import YoutubeDL
 from youtube_dl.utils import (
     ContentTooShortError,
