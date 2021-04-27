@@ -20,7 +20,7 @@ async def insta(event):
     if not reply_message.text:
         await event.edit("`Sertakan LinkNya.`")
         return
-    chat = "@SaveAsbot"
+    chat = "@ttsavebot"
     reply_message.sender
     if reply_message.sender.bot:
         await event.edit("Sabar Bentar.")
@@ -34,7 +34,7 @@ async def insta(event):
             await event.client.send_message(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await event.edit("@SaveAsbot'u `Unblock Dulu Terus Coba Lagi`")
+            await event.edit("@ttsavebot'u `Unblock Dulu Terus Coba Lagi`")
             return
         if response.text.startswith("Forward"):
             await event.edit(
