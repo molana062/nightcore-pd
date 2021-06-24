@@ -1,8 +1,8 @@
 # frm Ultroid
 # port by Koala @manusiarakitann
 
-from userbot.events import register
 from userbot import CMD_HELP, bot
+from userbot.events import register
 
 
 @register(outgoing=True, pattern="^.gcast (.*)")
@@ -23,11 +23,14 @@ async def gcast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kk.edit(f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰** Broadcast Terkirim Ke =** `{done}` **Grup, Broadcast Gagal Terkirim =** `{er}`**Grup**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**")
+    await kk.edit(
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰** Broadcast Terkirim Ke =** `{done}` **Grup, Broadcast Gagal Terkirim =** `{er}`**Grup**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**"
+    )
 
 
 CMD_HELP.update(
     {
         "gcast": ".gcast\
     \nBroadcast ke Seluruh Grup."
-    })
+    }
+)

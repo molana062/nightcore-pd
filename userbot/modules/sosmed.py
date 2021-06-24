@@ -3,8 +3,9 @@
 
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
+
+from userbot import CMD_HELP, bot
 from userbot.events import register
-from userbot import bot, CMD_HELP
 
 
 @register(outgoing=True, pattern="^.pint ?(.*)")
@@ -37,9 +38,7 @@ async def insta(event):
             await event.edit("@SaveAsbot'u `Unblock Dulu Terus Coba Lagi`")
             return
         if response.text.startswith("Forward"):
-            await event.edit(
-                "Akun Private Nih Mek."
-            )
+            await event.edit("Akun Private Nih Mek.")
         else:
             await event.delete()
             await event.client.send_file(
@@ -70,12 +69,13 @@ async def DeezLoader(event):
             await conv.send_message(dlink)
             details = await conv.get_response()
             song = await conv.get_response()
-#                                   #
+            #                                   #
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
             await event.edit("@DeezLoadBot'Unblok Lalu Coba Lagi.")
             return
         await bot.send_file(event.chat_id, song, caption=details.text)
+
 
 CMD_HELP.update(
     {
@@ -87,7 +87,5 @@ CMD_HELP.update(
         "\nUsage: Download Media Dari Instagram."
         "\n\n>`.dez`"
         "\nUsage: Download Lagu Via Deezloader"
-
-
     }
 )
