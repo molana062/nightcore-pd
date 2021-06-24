@@ -168,8 +168,8 @@ async def amireallyalive(alive):
         f"⚜ sʜᴀᴅᴏᴡ      ≒ {DEFAULTUSER}\n"
         f"⚜ ᴘʏᴛʜᴏɴ      ≒ {python_version()}\n"
         f"⚜ ᴛᴇʟᴇᴛʜᴏɴ    ≒ {version.__version__}\n"
-        f"⚜ ʀᴇᴘᴏ        ≒ [13Slave](https://github.com/molana062/NightCore)\n"
-        f"⚜ ᴏᴡɴᴇʀ       ≒ [Molana](https://t.me/betterthaanhecan)\n"
+        f"⚜ ʀᴇᴘᴏ        ≒ [IpinGGG](https://github.com/ipindanger/nightcore-pd)\n"
+        f"⚜ ᴏᴡɴᴇʀ       ≒ [IpinPD](https://t.me/ygtagbayar)\n"
         f"⚜ ʙᴀsᴇ        ≒ [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
         "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
     )
