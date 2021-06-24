@@ -75,11 +75,11 @@ async def mention_afk(mention):
         if mention.sender_id not in USERS or chat_title not in USERS:
             if AFKREASON:
                 await mention.reply(
-                    f"**Molana off.** (Since: {afk_str})" f"\nReason: `{AFKREASON}`."
+                    f"**Iping off.** (Since: {afk_str})" f"\nReason: `{AFKREASON}`."
                 )
             else:
                 await mention.reply(
-                    f"**Molana off.** (Since: {afk_str})" "\n**Sabar ajg nanti aja.**"
+                    f"**Iping off.** (Since: {afk_str})" "\n**Sabar ajg nanti aja.**"
                 )
             if mention.sender_id is not None:
                 USERS.update({mention.sender_id: 1})
@@ -89,13 +89,13 @@ async def mention_afk(mention):
             if USERS[mention.sender_id] % randint(2, 4) == 0:
                 if AFKREASON:
                     await mention.reply(
-                        f"**Molana off.** (Since: {afk_str})"
+                        f"**Iping off.** (Since: {afk_str})"
                         f"\nReason: `{AFKREASON}`."
                     )
                 else:
                     await mention.reply(
-                        f"**Molana off.** (Since: {afk_str})"
-                        "\n** Sabar ajg nanti aja.**"
+                        f"**Iping off.** (Since: {afk_str})"
+                        "\n** Sabar kentot masih bobo.**"
                     )
             if mention.sender_id is not None:
                 USERS[mention.sender_id] += 1
@@ -160,13 +160,13 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(
-                        f"**Molana off.** (Since: {afk_str})"
+                        f"**Iping off.** (Since: {afk_str})"
                         f"\nReason: `{AFKREASON}`."
                     )
                 else:
                     await sender.reply(
                         f"**Molana off.** (Since: {afk_str})"
-                        "\n**Sabar ajg nanti aja.**"
+                        "\n**Sabar kentot masih bobo.**"
                     )
                 USERS.update({sender.sender_id: 1})
                 COUNT_MSG = COUNT_MSG + 1
@@ -174,13 +174,13 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            "**Molana off.** (Since: {afk_str})"
+                            "**Iping off.** (Since: {afk_str})"
                             f"\nReason: `{AFKREASON}`."
                         )
                     else:
                         await sender.reply(
-                            "**Molana off.** (Since: {afk_str})"
-                            "\n**Sabar ajg nanti aja.**"
+                            "**Iping off.** (Since: {afk_str})"
+                            "\n**Sabar kentot masih bobo.**"
                         )
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
                     COUNT_MSG = COUNT_MSG + 1
@@ -206,12 +206,12 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(
-            "**Off dulu lagi pada kaya anjing semua!**" f"\nReason: `{string}`"
+            "**Off dulu hidup ini anjing banget!**" f"\nReason: `{string}`"
         )
     else:
-        await afk_e.edit("**Off dulu lagi pada kaya anjing semua!**")
+        await afk_e.edit("**Off dulu hidup ini anjing banget!**")
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nGua Afk Dulu Mang!")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nGua Mancing Dulu Okeh!")
     ISAFK = True
     afk_time = datetime.now()
     raise StopPropagation
