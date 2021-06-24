@@ -163,7 +163,7 @@ async def afk_on_pm(sender):
                     )
                 else:
                     await sender.reply(
-                        f"**Molana off.** (Since: {afk_str})"
+                        f"**Iping off.** (Since: {afk_str})"
                         "\n**Sabar kentot masih bobo.**"
                     )
                 USERS.update({sender.sender_id: 1})
@@ -229,7 +229,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = not_afk.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.edit("**balik lagi dengan molana!**")
+        msg = await notafk.edit("**aku datang njink!**")
         await asyncio.sleep(3)
         await msg.delete()
         if BOTLOG:
