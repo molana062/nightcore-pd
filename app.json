@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/molana062/NightCore",
+  "repository": "https://github.com/ipindanger/nightcore-pd",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "stack": "container",
   "env": {
